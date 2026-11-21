@@ -34,7 +34,7 @@ jobs:
 
       - name: Build APK
         run: |
-          cd source
+          cd source/DompetPelajarAndroid
           gradle assembleDebug
 
       - name: Upload APK
