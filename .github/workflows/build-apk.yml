@@ -27,7 +27,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip Dompet_Pelajar_Android_HP.zip -d source
+          unzip Dompet_Pelajar_dengan_Tabungan.zip -d source
 
       - name: Build APK
         run: |
